@@ -3,15 +3,15 @@ describe('Автотест на покупку Аватара', () => {
     // Переход на главную страницу сайта
     cy.visit('https://pokemonbattle.ru/login');
     // Ввод Email
-    cy.get('#k_email').type('user_login');
+    cy.get('#k_email').type('artem.alex.11@yandex.ru');
     // Ввод Pass
-    cy.get('#k_password').type('user_password');
+    cy.get('#k_password').type('pP92u1RTz');
     // Нажать энтер
     cy.get('#k_password').type('{enter}');
+    cy.wait(4000);
     // Вход в профиль
     cy.get('.header_card_trainer').click();
-    // Вход в профиль
-    cy.get('.header_card_trainer').click();
+    cy.wait(4000);
     // Смена Аратара
     cy.get('.k_mobile > :nth-child(5)').click();
     // Находим первую доступную кнопку в элементах с классом .available
