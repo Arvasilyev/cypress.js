@@ -74,5 +74,5 @@
 npx cypress run --spec cypress/e2e/* --browser edge
 ```
 Ожидаемый результат: получим отчет о прохождении тестов.
-![image](https://raw.githubusercontent.com/Arvasilyev/cypress.js/static/Cypress_Test_login.png)
-![image](https://raw.githubusercontent.com/Arvasilyev/cypress.js/static/Cypress_Test_Avatar.png)
+![image](https://raw.githubusercontent.com/Arvasilyev/static/Cypress_Test_login.png)
+![image](https://raw.githubusercontent.com/Arvasilyev/static/Cypress_Test_Avatar.png)
